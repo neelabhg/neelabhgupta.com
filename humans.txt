@@ -1,0 +1,15 @@
+/* TEAM */
+Author: Neelabh Gupta
+Site: neelabhgupta.com
+Location: Champaign, IL, USA.
+
+/* THANKS */                            
+Website Design and Layout Inspiration: Max Fierke
+Site: http://www.maxfierke.com/
+
+/* SITE */
+Last update: 2014/03/02
+Language: English
+Doctype: HTML5
+Components: Gumby Framework, PHP
+Development Tools: Eclipse + Aptana Studio, Virtualbox + Ubuntu Server, Chrome Developer Tools
