@@ -8,6 +8,32 @@
     <h2>Projects</h2>
     <div class="row project">
         <div>
+            <h3>ECE 391 Grading System</h3>
+            <h5 class="project-date">August 2014 &mdash; Present</h5>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <p>
+                    A web-based system for grading programming assignments (MPs) in the
+                    <a target="_blank" href="https://courses.engr.illinois.edu/ece391/">ECE 391 (Computer Systems Engineering)</a> course.
+                    This project aims to help graders migrate away from paper-based grading, and enable students to view detailed grade breakdowns not possible earlier.
+                    Developed using a decoupled architecture, with a REST API and web client communicating through <a target="_blank" href="http://json.org/">JSON</a>,
+                    both developed as separate projects and deployed separately.
+                </p>
+                <div>
+                    <i class="icon-code"></i>
+                    <ul>
+                        <li class="default label"><a target="_blank" href="https://www.python.org/">Python</a></li>
+                        <li class="default label"><a target="_blank" href="https://www.djangoproject.com/">Django</a></li>
+                        <li class="default label"><a target="_blank" href="http://backbonejs.org/">Backbone.js</a></li>
+                        <li class="default label"><a target="_blank" href="http://foundation.zurb.com/">Foundation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row project">
+        <div>
             <h3>Real Time Wikipedia Edits</h3>
             <h5 class="project-date">August 2013 &mdash; December 2013</h5>
         </div>
@@ -17,11 +43,11 @@
                 <div>
                     <i class="icon-code"></i>
                     <ul>
-                        <li class="default label">Java</li>
-                        <li class="default label">Spring MVC</li>
-                        <li class="default label">Atmosphere</li>
-                        <li class="default label">Tomcat</li>
-                        <li class="default label">Amazon EC2</li>
+                        <li class="default label"><a target="_blank" href="http://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></li>
+                        <li class="default label"><a target="_blank" href="http://projects.spring.io/spring-framework/">Spring MVC</a></li>
+                        <li class="default label"><a target="_blank" href="http://async-io.org/">Atmosphere</a></li>
+                        <li class="default label"><a target="_blank" href="http://tomcat.apache.org/">Tomcat</a></li>
+                        <li class="default label"><a target="_blank" href="http://aws.amazon.com/ec2/">Amazon EC2</a></li>
                     </ul>
                 </div>
                 <div>
@@ -49,8 +75,8 @@
                 <div>
                     <i class="icon-code"></i>
                     <ul>
-                        <li class="default label">C</li>
-                        <li class="default label">x86 Assembly</li>
+                        <li class="default label"><a target="_blank" href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a></li>
+                        <li class="default label"><a target="_blank" href="http://en.wikipedia.org/wiki/X86_assembly_language">x86 Assembly</a></li>
                     </ul>
                 </div>
             </div>
@@ -70,9 +96,9 @@
                 <div>
                     <i class="icon-code"></i>
                     <ul>
-                        <li class="default label">Python</li>
-                        <li class="default label">Django</li>
-                        <li class="default label">MySQL</li>
+                        <li class="default label"><a target="_blank" href="https://www.python.org/">Python</a></li>
+                        <li class="default label"><a target="_blank" href="https://www.djangoproject.com/">Django</a></li>
+                        <li class="default label"><a target="_blank" href="http://www.mysql.com/">MySQL</a></li>
                     </ul>
                 </div>
             </div>
@@ -91,8 +117,8 @@
                 <div>
                     <i class="icon-code"></i>
                     <ul>
-                        <li class="default label">C++</li>
-                        <li class="default label">C++ STL</li>
+                        <li class="default label"><a target="_blank" href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a></li>
+                        <li class="default label"><a target="_blank" href="http://en.wikipedia.org/wiki/Standard_Template_Library">C++ STL</a></li>
                     </ul>
                 </div>
                 <div>
@@ -118,7 +144,7 @@
                 <div>
                     <i class="icon-code"></i>
                     <ul>
-                        <li class="default label">C++</li>
+                        <li class="default label"><a target="_blank" href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a></li>
                         <li class="default label"><a target="_blank" href="http://en.wikipedia.org/wiki/OpenMP">OpenMP</a></li>
                     </ul>
                 </div>
@@ -141,11 +167,11 @@
                 <div>
                     <i class="icon-code"></i>
                     <ul>
-                        <li class="default label">PHP</li>
-                        <li class="default label">MySQL</li>
-                        <li class="default label">AWS Elastic Beanstalk</li>
-                        <li class="default label">Amazon EC2</li>
-                        <li class="default label">Amazon RDS</li>
+                        <li class="default label"><a target="_blank" href="http://php.net/">PHP</a></li>
+                        <li class="default label"><a target="_blank" href="http://www.mysql.com/">MySQL</a></li>
+                        <li class="default label"><a target="_blank" href="http://aws.amazon.com/elasticbeanstalk/">AWS Elastic Beanstalk</a></li>
+                        <li class="default label"><a target="_blank" href="http://aws.amazon.com/ec2/">Amazon EC2</a></li>
+                        <li class="default label"><a target="_blank" href="http://aws.amazon.com/rds/">Amazon RDS</a></li>
                     </ul>
                 </div>
             </div>
@@ -165,7 +191,7 @@
                 <div>
                     <i class="icon-code"></i>
                     <ul>
-                        <li class="default label">C</li>
+                        <li class="default label"><a target="_blank" href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a></li>
                     </ul>
                 </div>
                 <div>
@@ -187,8 +213,8 @@
                 <div>
                     <i class="icon-code"></i>
                     <ul>
-                        <li class="default label">VHDL</li>
-                        <li class="default label">Mentor Graphics HDL Designer</li>
+                        <li class="default label"><a target="_blank" href="http://en.wikipedia.org/wiki/VHDL">VHDL</a></li>
+                        <li class="default label"><a target="_blank" href="http://www.mentor.com/products/fpga/hdl_design/hdl_designer_series/">Mentor Graphics HDL Designer</a></li>
                     </ul>
                 </div>
             </div>
