@@ -64,7 +64,11 @@
     </div>
     
     <div id="header-img-wrapper" class="hide-on-all-phones">
-        <div id="header-img" style="background-image: url('<?php echo get_random_header_img(); ?>')"></div>
+        <?php $header_img = get_random_header_img(); ?>
+        <div id="header-img" style="background-image: url('<?php echo $header_img[0]; ?>')"></div>
+        <?php if(trim($header_img[1])): ?>
+            <div id="header-img-description"><?php echo $header_img[1]; ?></div>
+        <?php endif; ?>
     </div>
     
     <div id="quote" class="default alert"><?php $quote = get_random_quote(); echo "&ldquo;" . $quote[0] . "&rdquo;" . " &mdash; " . $quote[1]; ?></div>
