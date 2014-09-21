@@ -27,7 +27,7 @@
                     </div>
                     <div class="row">
                         <div class="btn danger medium icon-left entypo icon-gplus"><a target="_blank" href="https://plus.google.com/107575236618130190927/">Google+</a></div>
-                        <div class="btn primary medium icon-left entypo icon-github"><a target="_blank" href="https://github.com/neelabhg">Github</a></div>
+                        <div class="btn primary medium icon-left entypo icon-github"><a target="_blank" href="https://github.com/neelabhg">GitHub</a></div>
                     </div>
                 </div>
             </div>
