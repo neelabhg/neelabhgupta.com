@@ -7,10 +7,30 @@
 <div class="row">
     <h2>Projects</h2>
     <div class="row project">
-        <h3>Real Time Wikipedia Edits</h3>
-        <p>A web application showing recent edits to Wikipedia as they happen in real time.
-        <br>View a live demo <a target="_blank" href="<?php echo $settings["website_root"]; ?>projects/rt-wiki-dashboard/live.html">here</a>,
-        or view the project on <a target="_blank" href="https://github.com/neelabhg/rt-wiki-dashboard">GitHub</a>.</p>
+        <div>
+            <h3>Real Time Wikipedia Edits</h3>
+            <h5 class="project-date">August 2013 &mdash; December 2013</h5>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <p>A web application showing recent edits to Wikipedia as they happen in real time.</p>
+                <div>
+                    <i class="icon-code"></i>
+                    <ul>
+                        <li class="default label">Java</li>
+                        <li class="default label">Spring MVC</li>
+                        <li class="default label">Atmosphere</li>
+                        <li class="default label">Tomcat</li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="icon-globe"></i><a target="_blank" href="<?php echo $settings["website_root"]; ?>projects/rt-wiki-dashboard/live.html">Live demo</a>
+                </div>
+                <div>
+                    <i class="icon-github"></i><a target="_blank" href="https://github.com/neelabhg/rt-wiki-dashboard">rt-wiki-dashboard on GitHub</a>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="row project">
         <h3>Illinix 391</h3>

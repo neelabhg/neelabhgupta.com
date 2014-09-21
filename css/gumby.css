@@ -1697,11 +1697,16 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 
 #quote { text-align: center; border-radius: 0px; }
 
-.project { background: #E7E7E7; border-radius: 7px; margin-bottom: 15px; }
+/* Styles for a project listing on the projects page */
+.project { background: #E7E7E7; border-radius: 7px; margin-bottom: 15px; padding-bottom: 10px; }
 
-.project p { padding-left: 10px; }
+.project > .row, .project > div { padding-left: 10px; padding-right: 10px; }
 
-.project h3 { padding-left: 10px; }
+.project h3 { display: inline-block; }
+
+.project .project-date { float: right; }
+
+.project ul { display: inline-block; margin-bottom: 0px; }
 
 #footer-wrapper { padding: 20px; background: #757575; }
 
