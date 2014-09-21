@@ -2,19 +2,21 @@
 
     $settings = array(
         // per page settings
-        "load_custom_css" => FALSE,
-        "custom_css_file" => "",
         "page" => "",
         
         // global settings
+        "website_root" => "/",
         "load_google_analytics" => FALSE,
-        "website_root" => "/neelabhgupta_com/",
+        "load_mixpanel_analytics" => FALSE,
     );
     // add locations of the header and footer files.
     // this is separate from the array declaration because we are referencing a variable (website_root) from the array itself.
-    $settings["header"] = $_SERVER['DOCUMENT_ROOT'] . $settings["website_root"] . "php_includes/header.php";
-    $settings["footer"] = $_SERVER['DOCUMENT_ROOT'] . $settings["website_root"] . "php_includes/footer.php";
-    
+    $includes_base = $_SERVER["DOCUMENT_ROOT"] . $settings["website_root"] . "php_includes/";
+    $settings["header"] = $includes_base . "header.php";
+    $settings["footer"] = $includes_base . "footer.php";
+    $settings["google_analytics_tracking_file"] = $includes_base . "google_analytics_tracking.php";
+    $settings["mixpanel_analytics_tracking_file"] = $includes_base . "mixpanel_analytics_tracking.php";
+
     $quotes = array(
         array("If you can't explain it to a six year old, you don't understand it yourself.", "Albert Einstein"),
         array("Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.", "Albert Einstein"),

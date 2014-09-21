@@ -92,19 +92,6 @@
         else window.onload = downloadJSAtOnload;
     </script>
 
-    <?php if($settings["load_google_analytics"]): ?>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        
-          ga('create', 'UA-39700861-1', 'neelabhgupta.com');
-          ga('send', 'pageview');
-        
-        </script>
-    <?php endif; ?>
-    
     <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
            chromium.org/developers/how-tos/chrome-frame-getting-started -->
     <!--[if lt IE 7 ]>

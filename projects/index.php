@@ -1,7 +1,7 @@
 <?php
-    include '../php_includes/global.php';
+    include_once '../php_includes/global.php';
     $settings["page"] = "Projects";
-    include $settings["header"];
+    include_once $settings["header"];
 ?>
 
 <div class="row">
@@ -66,4 +66,4 @@
     </div>
 </div>
 
-<?php include $settings["footer"]; ?>
+<?php include_once $settings["footer"]; ?>
