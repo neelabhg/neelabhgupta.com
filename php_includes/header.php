@@ -1,9 +1,3 @@
-<?php
-    $logo_color = get_logo_color();
-    $header_img = get_random_header_img();
-    $quote = get_random_quote();
-?>
-
 <!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -58,7 +52,7 @@
             <div class="row">
                 <a class="toggle" gumby-trigger="#nav1 &gt; .row &gt; ul" href="#"><i class="icon-menu"></i></a>
                 <h2 class="four columns logo">
-                    <a href="<?php echo $settings["website_root"]; ?>" style="color: <?php echo $logo_color; ?>">Neelabh Gupta</a>
+                    <a href="<?php echo $settings["website_root"]; ?>" style="color: <?php echo get_logo_color(); ?>">Neelabh Gupta</a>
                 </h2>
                 <div class="four columns"></div>
                 <ul class="four columns">
@@ -70,8 +64,7 @@
     </div>
     
     <div id="header-img-wrapper" class="hide-on-all-phones">
-        <div id="header-img" style="background-image: url('<?php echo $header_img; ?>')"></div>
+        <div id="header-img" style="background-image: url('<?php echo get_random_header_img(); ?>')"></div>
     </div>
     
-    <div id="quote" class="default alert"><?php echo "&ldquo;" . $quote[0] . "&rdquo;" . " &mdash; " . $quote[1]; ?></div>
-    
+    <div id="quote" class="default alert"><?php $quote = get_random_quote(); echo "&ldquo;" . $quote[0] . "&rdquo;" . " &mdash; " . $quote[1]; ?></div>
