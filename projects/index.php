@@ -54,7 +54,7 @@
                     A web-based system for grading programming assignments (<abbr title="Machine Problems">MPs</abbr>) in the
                     <a target="_blank" href="https://courses.engr.illinois.edu/ece391/">ECE 391 (Computer Systems Engineering)</a> course at <a target="_blank" href="http://illinois.edu/">Illinois</a>.
                     This project aims to help graders migrate away from paper-based grading, and enable students to view detailed grade breakdowns not possible earlier.
-                    Developed using a decoupled architecture, with a REST API and web client communicating through <a target="_blank" href="http://json.org/">JSON</a>,
+                    Developed using a decoupled architecture, with an API and web client communicating through <a target="_blank" href="http://json.org/">JSON</a>,
                     both developed as separate projects and deployed separately.
                 </p>
                 <div>
