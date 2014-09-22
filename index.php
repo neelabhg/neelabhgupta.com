@@ -1,14 +1,20 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-   "http://www.w3.org/TR/html4/strict.dtd">
+<?php
+    include_once './php_includes/global.php';
+    $settings["currentPage"] = "Home";
+    include_once $settings["header"];
+?>
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Neelabh Gupta - Home</title>
-    <meta http-equiv="refresh" content="0; url=./projects/" />
-</head>
-<body>
-<p>Redirecting...</p>
-</body>
-</html>
+<div class="row">
+    <div class="seven columns">
+        <h2>Welcome!</h2>
+        <p>
+            I'm a senior in <a target="_blank" href="http://www.ece.illinois.edu/students/ugrad/curriculum/ce-curriculum-06b.html">Computer Engineering</a>
+            at the <a target="_blank" href="http://illinois.edu/">University of Illinois at Urbana-Champaign</a>.
+        </p>
+    </div>
+    <div class="five columns">
+        <?php include_once $settings["twitter_user_timeline_widget_file"]; ?>
+    </div>
+</div>
 
+<?php include_once $settings["footer"]; ?>

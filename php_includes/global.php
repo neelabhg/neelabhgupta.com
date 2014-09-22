@@ -2,7 +2,7 @@
 
     $settings = array(
         // per page settings
-        "page" => "",
+        "currentPage" => "",
         
         // global settings
         "website_root" => "/",
@@ -16,6 +16,7 @@
     $settings["footer"] = $includes_base . "footer.php";
     $settings["google_analytics_tracking_file"] = $includes_base . "google_analytics_tracking.php";
     $settings["mixpanel_analytics_tracking_file"] = $includes_base . "mixpanel_analytics_tracking.php";
+    $settings["twitter_user_timeline_widget_file"] = $includes_base . "twitter_user_timeline_widget.php";
 
     $quotes = array(
         array("If you can't explain it to a six year old, you don't understand it yourself.", "Albert Einstein"),

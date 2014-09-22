@@ -1,6 +1,6 @@
 <?php
     include_once '../php_includes/global.php';
-    $settings["page"] = "Projects";
+    $settings["currentPage"] = "Projects";
     include_once $settings["header"];
 ?>
 
