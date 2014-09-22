@@ -116,6 +116,7 @@
                     <i class="icon-code"></i>
                     <ul>
                         <li class="default label"><a target="_blank" href="http://en.wikipedia.org/wiki/VHDL">VHDL</a></li>
+                        <li class="default label"><a target="_blank" href="http://www.altera.com/products/software/quartus-ii/web-edition/qts-we-index.html">Altera Quartus II</a></li>
                         <li class="default label"><a target="_blank" href="https://www.python.org/">Python</a></li>
                     </ul>
                 </div>
