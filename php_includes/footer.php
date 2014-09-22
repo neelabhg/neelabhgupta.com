@@ -13,7 +13,9 @@
                         I am interested in Web development, Systems software, Artificial Intelligence and Physics.
                     </div>
                     <br>
-                    <div id="resume-btn" class="btn info medium icon-left entypo icon-download"><a href="https://dl.dropboxusercontent.com/u/26471374/www/Resume_Neelabh_Gupta.pdf?dl=1">R&eacute;sum&eacute;</a></div></li>
+                    <div id="resume-btn" class="btn info medium icon-left entypo icon-download">
+                        <a href="https://dl.dropboxusercontent.com/u/26471374/www/Resume_Neelabh_Gupta.pdf?dl=1">R&eacute;sum&eacute;</a>
+                    </div>
                 </div>
                 
                 <div id="social-buttons" class="four columns">
