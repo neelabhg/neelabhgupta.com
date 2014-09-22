@@ -100,6 +100,30 @@
     </div>
     <div class="row project">
         <div>
+            <h3>neelabhgupta.com website</h3>
+            <h5 class="project-date">March 2014 &mdash; Present</h5>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <p>My personal website (the one you are on right now!), hosted by the awesome people at <a target="_blank" href="http://datafirst.co.in/">DataFirst</a>.</p>
+                <div>
+                    <i class="icon-code"></i>
+                    <ul>
+                        <li class="default label"><a target="_blank" href="http://php.net/">PHP</a></li>
+                        <li class="default label"><a target="_blank" href="http://gumbyframework.com/">Gumby Framework</a></li>
+                        <li class="default label"><a target="_blank" href="http://sass-lang.com/">Sass</a></li>
+                        <li class="default label"><a target="_blank" href="http://www.google.com/analytics/">Google Analytics</a></li>
+                        <li class="default label"><a target="_blank" href="https://mixpanel.com/">Mixpanel</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="icon-globe"></i><a target="_blank" href="http://neelabhgupta.com/">neelabhgupta.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row project">
+        <div>
             <h3>2048 on an FPGA</h3>
             <h5 class="project-date">April 2014 &mdash; May 2014</h5>
         </div>
