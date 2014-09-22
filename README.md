@@ -9,5 +9,8 @@ Built in PHP and uses the [Gumby Framework](http://gumbyframework.com/).
 * Compile Sass:  
 `compass compile`
 
+* Watch changes to Sass files and compile automatically:  
+`compass watch`
+
 * Build JS files (configured in `gumby.json`):  
 `claymate build`
