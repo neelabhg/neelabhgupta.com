@@ -1693,7 +1693,7 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 
 #header-img { position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; background-size: 100%; background-repeat: no-repeat; }
 
-#header-img-description { position: absolute; bottom: 10%; right: 5%; background: #E7E7E7; border-radius: 7px; padding: 10px; opacity: 0.9; filter: alpha(opacity=90); /* For IE8 and earlier */ }
+#header-img-description { position: absolute; bottom: 10%; right: 2%; background: #E7E7E7; border-radius: 7px; padding: 10px; opacity: 0.9; filter: alpha(opacity=90); /* For IE8 and earlier */ }
 
 #quote { text-align: center; border-radius: 0px; }
 
