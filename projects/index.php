@@ -189,7 +189,7 @@
                     <i class="icon-doc-text"></i><a target="_blank" href="https://db.tt/A4inFlq1">Presentation slides</a>
                 </div>
                 <div>
-                    <i class="icon-github"></i><a target="_blank" href="https://github.com/neelabhg/rt-wiki-dashboard">rt-wiki-dashboard on GitHub</a>
+                    <i class="icon-github"></i><a target="_blank" href="https://github.com/neelabhg/fibonacci-heap-priority-queue">fibonacci-heap-priority-queue on GitHub</a>
                 </div>
             </div>
         </div>
