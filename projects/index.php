@@ -100,6 +100,30 @@
     </div>
     <div class="row project">
         <div>
+            <h3>2048 on an FPGA</h3>
+            <h5 class="project-date">April 2014 &mdash; May 2014</h5>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <p>
+                    A clone of the <a target="_blank" href="http://gabrielecirulli.github.io/2048/">2048 game</a> in VHDL,
+                    for the final project of the <a target="_blank" href="https://wiki.cites.illinois.edu/wiki/display/ECE385/Home">ECE 385 (Digital Systems Laboratory)</a> course at <a target="_blank" href="http://illinois.edu/">Illinois</a>.
+                    The game runs on the <a target="_blank" href="http://www.altera.com/education/univ/materials/boards/de2/unv-de2-board.html">Altera DE2 FPGA board</a>,
+                    using a PS/2 keyboard to control gameplay and VGA for display.
+                    The project also used Python for generating repetitive VHDL code and for generating sprite images used with the VGA display.
+                </p>
+                <div>
+                    <i class="icon-code"></i>
+                    <ul>
+                        <li class="default label"><a target="_blank" href="http://en.wikipedia.org/wiki/VHDL">VHDL</a></li>
+                        <li class="default label"><a target="_blank" href="https://www.python.org/">Python</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row project">
+        <div>
             <h3>Illinix 391</h3>
             <h5 class="project-date">March 2013 &mdash; May 2013</h5>
         </div>
