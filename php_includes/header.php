@@ -56,6 +56,7 @@
                 </h2>
                 <div class="four columns"></div>
                 <ul class="four columns">
+                    <li><a href="<?php echo $settings["website_root"]; ?>">Home</a></li>
                     <li><a href="<?php echo $settings["website_root"]; ?>projects">Projects</a></li>
                     <li><a href="#" class="skip" gumby-goto="[data-target='contact']">Contact</a></li>
                 </ul>

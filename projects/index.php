@@ -110,7 +110,7 @@
                     for the final project of the <a target="_blank" href="https://wiki.cites.illinois.edu/wiki/display/ECE385/Home">ECE 385 (Digital Systems Laboratory)</a> course at <a target="_blank" href="http://illinois.edu/">Illinois</a>.
                     The game runs on the <a target="_blank" href="http://www.altera.com/education/univ/materials/boards/de2/unv-de2-board.html">Altera DE2 FPGA board</a>,
                     using a PS/2 keyboard to control gameplay and VGA for display.
-                    The project also used Python for generating repetitive VHDL code and for generating sprite images used with the VGA display.
+                    The project also uses Python for generating repetitive VHDL code and for generating sprite images used with the VGA display.
                 </p>
                 <div>
                     <i class="icon-code"></i>

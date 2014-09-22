@@ -26,8 +26,8 @@
     
     $header_imgs = array(
         array($settings["website_root"] . "img/UIUC_Quad2.jpg", "The University of Illinois main Quad"),
-        array($settings["website_root"] . "img/java_code.png", "Peek of the rt-wiki-dashboard code"),
-        array($settings["website_root"] . "img/logic.png", "Peek of a TTL circuit design in Logisim"),
+        array($settings["website_root"] . "img/java_code.png", "Peek into the rt-wiki-dashboard code"),
+        array($settings["website_root"] . "img/logic.png", "Peek into a TTL circuit design in Logisim"),
     );
     
     $logo_colors = array(
