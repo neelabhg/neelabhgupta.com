@@ -8,14 +8,51 @@
     <h2>Projects</h2>
     <div class="row project">
         <div>
+            <h3>Linux-In-The-Browser</h3>
+            <h5 class="project-date">July 2014 &mdash; Present</h5>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <p>
+                    A systems programming playground in the browser developed in collaboration with
+                    Professor <a target="_blank" href="https://github.com/angrave">Lawrence Angrave</a>, used in the
+                    <a target="_blank" href="https://courses.engr.illinois.edu/cs241/fa2014/">CS 241 (Systems Programming)</a> course at <a target="_blank" href="http://illinois.edu/">Illinois</a>.
+                    Features a tiny but fast Linux virtual machine in JavaScript powered by the <a target="_blank" href="https://github.com/angrave/jor1k">jor1k</a> project.
+                </p>
+                <div>
+                    <i class="icon-code"></i>
+                    <ul>
+                        <li class="default label"><a target="_blank" href="http://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+                        <li class="default label"><a target="_blank" href="http://knockoutjs.com/">Knockout JS</a></li>
+                        <li class="default label"><a target="_blank" href="http://getbootstrap.com/">Bootstrap</a></li>
+                        <li class="default label"><a target="_blank" href="http://sammyjs.org/">Sammy.js</a></li>
+                        <li class="default label"><a target="_blank" href="http://bower.io/">Bower</a></li>
+                        <li class="default label"><a target="_blank" href="http://gruntjs.com/">Grunt</a></li>
+                        <li class="default label"><a target="_blank" href="http://yeoman.io/">Yeoman</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="icon-globe"></i><a target="_blank" href="http://angrave.github.io/sys/">Production</a>
+                </div>
+                <div>
+                    <i class="icon-globe"></i><a target="_blank" href="http://neelabhg.github.io/sys-staging/">Staging</a>
+                </div>
+                <div>
+                    <i class="icon-github"></i><a target="_blank" href="https://github.com/angrave/sysbuild">sysbuild on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row project">
+        <div>
             <h3>ECE 391 Grading System</h3>
             <h5 class="project-date">August 2014 &mdash; Present</h5>
         </div>
         <div class="row">
             <div class="twelve columns">
                 <p>
-                    A web-based system for grading programming assignments (MPs) in the
-                    <a target="_blank" href="https://courses.engr.illinois.edu/ece391/">ECE 391 (Computer Systems Engineering)</a> course.
+                    A web-based system for grading programming assignments (<abbr title="Machine Problems">MPs</abbr>) in the
+                    <a target="_blank" href="https://courses.engr.illinois.edu/ece391/">ECE 391 (Computer Systems Engineering)</a> course at <a target="_blank" href="http://illinois.edu/">Illinois</a>.
                     This project aims to help graders migrate away from paper-based grading, and enable students to view detailed grade breakdowns not possible earlier.
                     Developed using a decoupled architecture, with a REST API and web client communicating through <a target="_blank" href="http://json.org/">JSON</a>,
                     both developed as separate projects and deployed separately.
@@ -25,6 +62,8 @@
                     <ul>
                         <li class="default label"><a target="_blank" href="https://www.python.org/">Python</a></li>
                         <li class="default label"><a target="_blank" href="https://www.djangoproject.com/">Django</a></li>
+                        <li class="default label"><a target="_blank" href="http://www.mysql.com/">MySQL</a></li>
+                        <li class="default label"><a target="_blank" href="http://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
                         <li class="default label"><a target="_blank" href="http://backbonejs.org/">Backbone.js</a></li>
                         <li class="default label"><a target="_blank" href="http://foundation.zurb.com/">Foundation</a></li>
                     </ul>
