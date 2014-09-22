@@ -18,7 +18,7 @@
     <meta name="keywords" content="">
     <meta name="author" content="humans.txt">
 
-    <link rel="shortcut icon" href="<?php echo $settings["website_root"]; ?>img/illinois_favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo $settings["website_root"]; ?>img/favicon.ico" type="image/x-icon">
 
     <!-- Facebook Metadata /-->
     <meta property="fb:page_id" content="">
