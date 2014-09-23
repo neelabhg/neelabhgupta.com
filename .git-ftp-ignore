@@ -6,5 +6,6 @@ config.rb
 gumby.json
 README.md
 ui.html
+copy_js_deps.sh
 .git-ftp-ignore
 .git-ftp-include
