@@ -1,0 +1,3 @@
+css/gumby.css:sass/*
+js/gumby.min.js:js/main.js
+js/gumby.min.js:bower_components/gumby/js/*

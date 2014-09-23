@@ -1,5 +1,6 @@
 bower_components/
 sass/
+js/main.js
 .gitignore
 config.rb
 gumby.json
