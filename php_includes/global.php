@@ -1,4 +1,5 @@
 <?php
+    $env = strpos($_SERVER["SERVER_NAME"], "neelabhgupta.com") !== false ? "prod" : "dev";
 
     $settings = array(
         // per page settings
@@ -6,8 +7,9 @@
         
         // global settings
         "website_root" => "/",
-        "load_google_analytics" => FALSE,
-        "load_mixpanel_analytics" => FALSE,
+        "load_google_analytics" => $env === "prod",
+        "load_mixpanel_analytics" => $env === "prod",
+        "enableEventTracking" => $env === "prod",
     );
     // add locations of the header and footer files.
     // this is separate from the array declaration because we are referencing a variable (website_root) from the array itself.
