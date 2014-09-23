@@ -1,2 +1,7 @@
 bower_components/
 sass/
+.gitignore
+config.rb
+gumby.json
+README.md
+ui.html
