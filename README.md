@@ -25,7 +25,7 @@ $ git config git-ftp.user <ftp_username>
 $ git config git-ftp.password <ftp_password>
 ```
 
-* Init git-ftp on FTP site, if not done already:  
+* Initialize git-ftp on FTP site, if not done already:  
 ```
 $ git ftp init
 ```
@@ -56,3 +56,6 @@ $ claymate build
 ```
 $ git ftp push
 ```
+
+## Licence
+(c) 2014, Neelabh Gupta
