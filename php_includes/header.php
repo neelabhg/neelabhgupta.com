@@ -35,7 +35,7 @@
 
     <link rel="stylesheet" href="<?php echo $settings["website_root"]; ?>css/gumby.css">
 
-    <script src="<?php echo $settings["website_root"]; ?>bower_components/gumby/js/libs/modernizr-2.6.2.min.js"></script>
+    <script src="<?php echo $settings["website_root"]; ?>js/libs/modernizr-2.6.2.min.js"></script>
 
     <?php if($settings["load_google_analytics"]): ?>
         <?php include_once $settings["google_analytics_tracking_file"]; ?>

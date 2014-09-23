@@ -1,5 +1,6 @@
 # ==== Project specific ====
 js/gumby.min.js
+js/libs
 css/gumby.css
 
 # ==== Sass ====

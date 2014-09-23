@@ -47,9 +47,9 @@ $ compass compile
 $ compass watch
 ```
 
-* Build JS files (configured in `gumby.json`):  
+* Build JS files (configured in `gumby.json`) and copy dependencies to `js/` folder:  
 ```
-$ claymate build
+$ claymate build && ./copy_js_deps.sh
 ```
 
 * Deploy:  

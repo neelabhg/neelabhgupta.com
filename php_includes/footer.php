@@ -65,9 +65,9 @@
     <script>
         if(!window.jQuery) {
             if(!oldieCheck) {
-                document.write('<script src="<?php echo $settings["website_root"]; ?>bower_components/gumby/js/libs/jquery-2.0.2.min.js"><\/script>');
+                document.write('<script src="<?php echo $settings["website_root"]; ?>js/libs/jquery-2.0.2.min.js"><\/script>');
             } else {
-                document.write('<script src="<?php echo $settings["website_root"]; ?>bower_components/gumby/js/libs/jquery-1.10.1.min.js"><\/script>');
+                document.write('<script src="<?php echo $settings["website_root"]; ?>js/libs/jquery-1.10.1.min.js"><\/script>');
             }
         }
     </script>
