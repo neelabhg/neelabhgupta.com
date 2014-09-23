@@ -1,5 +1,5 @@
 bower_components/
-bower_components/gumby/js/libs/modernizr-2.6.2.min.js
+!bower_components/gumby/js/libs/modernizr-2.6.2.min.js
 sass/
 .gitignore
 config.rb
