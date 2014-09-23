@@ -5,3 +5,5 @@ config.rb
 gumby.json
 README.md
 ui.html
+.git-ftp-ignore
+.git-ftp-include
