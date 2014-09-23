@@ -44,7 +44,7 @@
                 </div>
                 <div id="top-link" class="column">
                     <span class="hide-on-all-phones">|</span>
-                    <a class="skip" href="#" gumby-goto="[data-target='top']">Top</a>
+                    <a class="skip" href="#" data-goto="[data-target='top']">Top</a>
                 </div>
             </div>
         </footer>

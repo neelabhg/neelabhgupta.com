@@ -48,9 +48,9 @@
 
 <body>
     <div class="navcontain" id="nav1-contain">
-        <div class="navbar" gumby-fixed="top" id="nav1">
+        <div class="navbar" data-fixed="top" id="nav1">
             <div class="row">
-                <a class="toggle" gumby-trigger="#nav1 &gt; .row &gt; ul" href="#"><i class="icon-menu"></i></a>
+                <a class="toggle" data-trigger="#nav1 &gt; .row &gt; ul" href="#"><i class="icon-menu"></i></a>
                 <h2 class="four columns logo">
                     <a href="<?php echo $settings["website_root"]; ?>" style="color: <?php echo get_logo_color(); ?>">Neelabh Gupta</a>
                 </h2>
@@ -58,7 +58,7 @@
                 <ul class="four columns">
                     <li><a href="<?php echo $settings["website_root"]; ?>">Home</a></li>
                     <li><a href="<?php echo $settings["website_root"]; ?>projects/">Projects</a></li>
-                    <li><a href="#" class="skip" gumby-goto="[data-target='contact']">Contact</a></li>
+                    <li><a href="#" class="skip" data-goto="[data-target='contact']">Contact</a></li>
                 </ul>
             </div>
         </div>
