@@ -32,6 +32,11 @@ $ git ftp init
 
 ## Development
 
+* Copy dependencies to `js/` folder:  
+```
+$ ./copy_js_deps.sh
+```
+
 * PHP has a [built-in](http://php.net/manual/en/features.commandline.webserver.php) web server for development:  
 ```
 $ php -S localhost:8000
@@ -47,9 +52,9 @@ $ compass compile
 $ compass watch
 ```
 
-* Build JS files (configured in `gumby.json`) and copy dependencies to `js/` folder:  
+* Build JS files (configured in `gumby.json`):  
 ```
-$ claymate build && ./copy_js_deps.sh
+$ claymate build
 ```
 
 * Deploy:  
