@@ -44,6 +44,14 @@
     <?php if($settings["load_mixpanel_analytics"]): ?>
         <?php include_once $settings["mixpanel_analytics_tracking_file"]; ?>
     <?php endif; ?>
+
+    <script type="text/javascript">
+        pageProperties = {
+            page: '<?php echo $settings["currentPage"]; ?>',
+            enableEventTracking: <?php echo $settings["enableEventTracking"] ? "true" : "false"; ?>,
+            env: '<?php echo $env; ?>'
+        };
+    </script>
 </head>
 
 <body>
