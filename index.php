@@ -5,7 +5,7 @@
 ?>
 
 <div class="row">
-    <div class="seven columns">
+    <div id="homepage-about-me" class="seven columns">
         <h2>Welcome!</h2>
         <p>
             I'm a senior in <a target="_blank" href="http://www.ece.illinois.edu/students/ugrad/curriculum/ce-curriculum-06b.html">Computer Engineering</a>
