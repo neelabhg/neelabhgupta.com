@@ -5,8 +5,8 @@ jQuery(document).ready(function ($) {
         } else {
             mixpanel.register({ 'Page': pageProperties.page });
             mixpanel.track("Page View");
-            mixpanel.track_links('#nav1 .logo > a', 'Clicked Logo');
-            mixpanel.track_links('#nav1 li > a', 'Clicked Nav Link', function (elem) {
+            mixpanel.track_links('#nav1 .logo a', 'Clicked Logo');
+            mixpanel.track_links('#nav1 li a', 'Clicked Nav Link', function (elem) {
                 return {
                     'Link Text': elem.text
                 };
@@ -16,9 +16,9 @@ jQuery(document).ready(function ($) {
                     'Social Network': elem.text
                 };
             });
-            mixpanel.track_links('#resume-btn > a', 'Clicked Download Resume Button');
-            mixpanel.track_links('#humans-txt-btn > a', 'Clicked humans.txt');
-            mixpanel.track_links('#top-link > a', 'Clicked Go to Top Link');
+            mixpanel.track_links('#resume-btn a', 'Clicked Download Resume Button');
+            mixpanel.track_links('#humans-txt-btn a', 'Clicked humans.txt');
+            mixpanel.track_links('#top-link a', 'Clicked Go to Top Link');
 
             mixpanel.track_links('.project-description a', 'Clicked link in project description', function (elem) {
                 var $elem = $(elem);
