@@ -1,29 +1,4 @@
 jQuery(document).ready(function ($) {
-    pageProperties.enableEventTracking = true;
-    window.mixpanel = {
-        register: function (properties, days) {
-            console.log('mixpanel register', properties, 'Registered for ' + days + ' days.');
-        },
-        track: function (event_name, properties, callback) {
-            console.log('mixpanel track', event_name, properties);
-            if (typeof callback === 'function') {
-                callback();
-            }
-        },
-        track_links: function (query, event_name, properties) {
-            $(query).click(function (e) {
-                var props = {};
-                if (typeof properties === 'object') {
-                    props = properties;
-                } else if (typeof properties === 'function') {
-                    props = properties(this);
-                }
-                console.log('mixpanel track links', event_name, props);
-                e.preventDefault();
-            });
-        }
-    };
-
     if (pageProperties.enableEventTracking) {
         if (typeof mixpanel === "undefined") {
             console.log("Failed to load Mixpanel.");
