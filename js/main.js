@@ -24,8 +24,7 @@ jQuery(document).ready(function ($) {
                 var $elem = $(elem);
                 return {
                     'Project': $elem.closest('.project').find('.project-title').text(),
-                    'Link Text': $elem.text(),
-                    'Link URL': $elem.attr('href')
+                    'Link Text': $elem.text()
                 }
             });
 
@@ -33,8 +32,7 @@ jQuery(document).ready(function ($) {
                 var $elem = $(elem);
                 return {
                     'Project': $elem.closest('.project').find('.project-title').text(),
-                    'Link Text': $elem.text(),
-                    'Link URL': $elem.attr('href')
+                    'Link Text': $elem.text()
                 }
             });
 
@@ -42,15 +40,13 @@ jQuery(document).ready(function ($) {
                 var $elem = $(elem);
                 return {
                     'Project': $elem.closest('.project').find('.project-title').text(),
-                    'Link Text': $elem.text(),
-                    'Link URL': $elem.attr('href')
+                    'Link Text': $elem.text()
                 }
             });
 
             mixpanel.track_links('#homepage-about-me a', 'Clicked link on homepage', function (elem) {
                 return {
-                    'Link Text': elem.text,
-                    'Link URL': elem.href
+                    'Link Text': elem.text
                 }
             });
         }
