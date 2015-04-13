@@ -62,5 +62,5 @@ $ claymate build
 $ git ftp push
 ```
 
-## Licence
-(c) 2014, Neelabh Gupta
+## License
+&copy; 2014-15, Neelabh Gupta

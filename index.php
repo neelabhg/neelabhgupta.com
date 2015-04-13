@@ -17,9 +17,8 @@
             <li>I've interned at <a target="_blank" href="https://ads.twitter.com/">Twitter</a> and <a target="_blank" href="https://zong.com/">PayPal</a>.</li>
             <li>I have worked as an undergraduate Teaching Assistant for the operating systems course
                 (<a target="_blank" href="https://courses.engr.illinois.edu/ece391/">ECE 391</a>) for two semesters at the University.</li>
-            <li>I'm pursuing a <a target="_blank" href="http://physics.illinois.edu/undergrad/minor.asp">Minor in Physics</a>.</li>
             <li>I love Soccer and Badminton.</li>
-            <li>I love electronic music (EDM, House, etc). Some of my favorite artists are <a target="_blank" href="http://alessoworld.com/">Alesso</a>, <a target="_blank" href="https://www.axwell.com">Axwell</a> and <a target="_blank" href="http://www.afrojack.com/">Afrojack</a>.</li>
+            <li>I love electronic music (EDM, House, etc). Some of my favorite artists are <a target="_blank" href="http://alessoworld.com/">Alesso</a>, <a target="_blank" href="https://www.axwell.com">Axwell</a>, <a target="_blank" href="http://www.afrojack.com/">Afrojack</a> and <a target="_blank" href="http://www.kygomusic.com/">Kygo</a>.</li>
             <li>I'm a DJ myself (well, aspiring to be):
                 <blockquote class="twitter-tweet" lang="en">
                     <p>

@@ -14,7 +14,7 @@
                     </div>
                     <br>
                     <div id="resume-btn" class="btn info medium icon-left entypo icon-download">
-                        <a href="https://dl.dropboxusercontent.com/u/26471374/www/Resume_Neelabh_Gupta.pdf?dl=1">R&eacute;sum&eacute;</a>
+                        <a href="https://github.com/neelabhg/resume/raw/master/Resume_Neelabh_Gupta.pdf">R&eacute;sum&eacute;</a>
                     </div>
                 </div>
                 
@@ -36,7 +36,7 @@
             
             <br>
             <div id="copyright" class="row">
-                &copy; 2014 Neelabh Gupta
+                &copy; 2014-2015 Neelabh Gupta
             </div>
             <div class="row">
                 <div id="humans-txt-btn" class="column">
