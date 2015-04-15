@@ -23,6 +23,13 @@
                         This project also became part of the <a target="_blank" href="https://seniorprojects.cs.illinois.edu/">Computer Science Senior Project course</a> starting in Fall 2014.
                         The 2014-15 team consists of 7 students (including me).
                     </p>
+                    <p>
+                        Here is the presentation I gave at the ECE Undergraduate Research Symposium:
+                        <div class="video"> <!-- The video class maintains the iFrame's aspect ratio: http://gumbyframework.com/docs/components/#!/intrinsic-ratio-video -->
+                            <iframe src="<?php echo $settings["website_root"]; ?>bower_components/viewerjs/ViewerJS/#../../../projects/linux-in-the-browser/ece_ug_symposium_nsgupta2.pdf"
+                                    allowfullscreen></iframe>
+                        </div>
+                    </p>
                 </p>
                 <div class="project-technologies">
                     <i class="icon-code"></i>

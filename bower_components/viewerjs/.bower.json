@@ -1,0 +1,35 @@
+{
+  "name": "viewerjs",
+  "main": "ViewerJS/viewer.js",
+  "description": "Document viewer component for PDF and ODF documents. Done with just HTML, CSS, and JavaScript. Powered by pdf.js and WebODF.",
+  "license": "AGPL-3.0",
+  "keywords": [
+    "OpenDocument",
+    "ODF",
+    "PDF",
+    "Text",
+    "Document",
+    "Slides",
+    "Presentation",
+    "ODT",
+    "OTT",
+    "FODT",
+    "ODP",
+    "OTP",
+    "FODP",
+    "Viewer"
+  ],
+  "homepage": "http://viewerjs.org/",
+  "ignore": [],
+  "version": "0.5.6",
+  "_release": "0.5.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.5.6",
+    "commit": "517746d8cce0de98290cdaabc61e7c7215cf6287"
+  },
+  "_source": "git://github.com/kogmbh/ViewerJS_release.git",
+  "_target": "~0.5.6",
+  "_originalSource": "viewerjs",
+  "_direct": true
+}
