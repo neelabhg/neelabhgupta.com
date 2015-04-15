@@ -14,18 +14,24 @@
         <div class="row">
             <div class="twelve columns">
                 <p class="project-description">
-                    A systems programming playground in the browser developed in collaboration with
-                    Professor <a target="_blank" href="https://github.com/angrave">Lawrence Angrave</a>, used in the
-                    <a target="_blank" href="https://courses.engr.illinois.edu/cs241/fa2014/">CS 241 (Systems Programming)</a> course at <a target="_blank" href="http://illinois.edu/">Illinois</a>.
-                    Features a tiny but fast Linux virtual machine in JavaScript powered by the <a target="_blank" href="https://github.com/angrave/jor1k">jor1k</a> project.
+                    A system programming playground in the browser developed in collaboration with
+                    <a target="_blank" href="https://github.com/angrave">Dr. Lawrence Angrave</a>, used in the
+                    <a target="_blank" href="https://courses.engr.illinois.edu/cs241/fa2014/">CS 241 (System Programming)</a> course at <a target="_blank" href="http://illinois.edu/">Illinois</a>.
+                    Features a tiny but fast Linux virtual machine in JavaScript powered by the <a target="_blank" href="https://github.com/cs-education/jor1k">jor1k</a> project.
+                    <p>
+                        I'm currently undertaking this project as a <a target="_blank" href="https://courses.engr.illinois.edu/ece496/">senior research project with thesis</a>.
+                        This project also became part of the <a target="_blank" href="https://seniorprojects.cs.illinois.edu/">Computer Science Senior Project course</a> starting in Fall 2014.
+                        The 2014-15 team consists of 7 students (including me).
+                    </p>
                 </p>
                 <div class="project-technologies">
                     <i class="icon-code"></i>
                     <ul>
                         <li class="default label"><a target="_blank" href="http://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
                         <li class="default label"><a target="_blank" href="http://knockoutjs.com/">Knockout JS</a></li>
-                        <li class="default label"><a target="_blank" href="http://getbootstrap.com/">Bootstrap</a></li>
                         <li class="default label"><a target="_blank" href="http://sammyjs.org/">Sammy.js</a></li>
+                        <li class="default label"><a target="_blank" href="http://getbootstrap.com/">Bootstrap</a></li>
+                        <li class="default label"><a target="_blank" href="http://sass-lang.com/">Sass</a></li>
                         <li class="default label"><a target="_blank" href="http://bower.io/">Bower</a></li>
                         <li class="default label"><a target="_blank" href="http://gruntjs.com/">Grunt</a></li>
                         <li class="default label"><a target="_blank" href="http://yeoman.io/">Yeoman</a></li>
@@ -33,13 +39,13 @@
                 </div>
                 <div class="project-external-links">
                     <div>
-                        <i class="icon-globe"></i><a target="_blank" href="http://angrave.github.io/sys/">Production</a>
+                        <i class="icon-globe"></i><a target="_blank" href="http://cs-education.github.io/sys">Production</a>
                     </div>
                     <div>
-                        <i class="icon-globe"></i><a target="_blank" href="http://neelabhg.github.io/sys-staging/">Staging</a>
+                        <i class="icon-globe"></i><a target="_blank" href="http://cs-education.github.io/sys-staging/">Staging</a>
                     </div>
                     <div>
-                        <i class="icon-github"></i><a target="_blank" href="https://github.com/angrave/sysbuild">sysbuild on GitHub</a>
+                        <i class="icon-github"></i><a target="_blank" href="https://github.com/cs-education/sysbuild">sysbuild on GitHub</a>
                     </div>
                 </div>
             </div>
