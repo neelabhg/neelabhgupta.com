@@ -4,8 +4,8 @@ Site: neelabhgupta.com
 Location: Champaign, IL, USA.
 
 /* SITE */
-Last update: 2014/03/02
+Last update: 2015/04/24
 Language: English
 Doctype: HTML5
-Components: Gumby Framework, PHP
-Development Tools: IntelliJ IDEA (previously Eclipse + Aptana Studio), VirtualBox + Ubuntu Server, Chrome Developer Tools
+Components: Gumby Framework, PHP, Google Analytics, Mixpanel
+Development Tools: IntelliJ IDEA, Chrome Developer Tools, WinSCP, git-ftp
