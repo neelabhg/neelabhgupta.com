@@ -8,7 +8,7 @@
     <div id="homepage-about-me" class="seven columns">
         <h2>Welcome!</h2>
         <p>
-            I'm a senior in <a target="_blank" href="http://www.ece.illinois.edu/students/ugrad/curriculum/ce-curriculum-06b.html">Computer Engineering</a>
+            I'm a senior in <a target="_blank" href="https://www.ece.illinois.edu/academics/ugrad/curriculum/ce-curriculum-06b.asp">Computer Engineering</a>
             at the <a target="_blank" href="http://illinois.edu/">University of Illinois at Urbana-Champaign</a>.
             Read on to know more about me, <a href="<?php echo $settings["website_root"]; ?>projects/">check out my projects</a> and <a href="#" class="skip" data-goto="[data-target='contact']">reach me on social networks</a>!
         </p>
